@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: deeptrust-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: PORT
+        value: 8000
+    healthCheckPath: /
+    autoDeploy: true

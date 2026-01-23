@@ -1,0 +1,14 @@
+fastapi==0.109.0
+uvicorn==0.27.0
+python-multipart==0.0.6
+opencv-python-headless==4.9.0.80
+mediapipe==0.10.30
+torch==2.6.0
+torchvision==0.21.0
+timm==0.9.12
+Pillow==11.0.0
+numpy==1.26.4
+grad-cam==1.5.0
+python-dotenv==1.0.0
+aiofiles==23.2.1
+gunicorn==21.2.0
